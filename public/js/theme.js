@@ -82,7 +82,7 @@ $(window).load(function() {
 
 var megaDrop = $('.top-slidingbar-trigger');
 var megaContainer = $('#top-slidingbar');
- 
+
 $(megaDrop).click(function() {
     $(megaContainer).slideToggle(300,function(){
         if ($(this).is(":hidden")) $(megaDrop).html("+");
@@ -200,22 +200,22 @@ $('.counter').counterUp({
 // featured box typed text
 $(".featured-box .typed-element").typed({
 
-    strings: ["Pure^3000", "Total^3000", "Brutal^3000"], // Waits 3000ms after typing word        
-    typeSpeed: 100, // typing speed        
-    startDelay: 0, // time before typing starts        
-    loop: true, // loop        
+    strings: ["Pure^3000", "Total^3000", "Brutal^3000"], // Waits 3000ms after typing word (Shows typed word for 3000ms)
+    typeSpeed: 100, // typing speed
+    startDelay: 0, // time before loop starts
+    loop: true, // loop
     showCursor: false, // show cursor
     cursorChar: "|" // character for cursor
-    
+
 });
 
 // Video intro typed text
 $("#video-intro-section .typed-element").typed({
 
-    strings: ["Awesome^3000", "^1000Brilliant^3000", "^1000Incredible^3000", "^1000Priceless^3000", "^1000Responsive^3000"], // Waits 3000ms after typing word        
-    typeSpeed: 100, // typing speed        
-    startDelay: 2000, // time before typing starts        
-    loop: true, // loop        
+    strings: ["^1000Creative^1500", "^1000Technological^1500", "^1000Progressive^1500", "^1000Responsive^1500", "^1000Intelligent^1500", "^1000Invaluable^1500"], // Waits 2000ms after typing word (Shows typed word for 2000ms)
+    typeSpeed: 75, // typing speed (inverse)
+    startDelay: 3000, // time before loop start
+    loop: true, // loop
     showCursor: true, // show cursor
     cursorChar: "|" // character for cursor
 
