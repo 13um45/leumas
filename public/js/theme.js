@@ -212,7 +212,7 @@ $(".featured-box .typed-element").typed({
 // Video intro typed text
 $("#video-intro-section .typed-element").typed({
 
-    strings: ["^1000Creative^1500", "^1000Progressive^1500", "^1000Responsive^1500", "^1000Intelligent^1500", "^1000Invaluable^1500"], // Waits 2000ms after typing word (Shows typed word for 2000ms)
+    strings: ["^1000Creative^1500", "^1000Progressive^1500", "^1000Responsive^1500", "^1000Intelligent^1500"], // Waits 2000ms after typing word (Shows typed word for 2000ms)
     typeSpeed: 75, // typing speed (inverse)
     startDelay: 3000, // time before loop start
     loop: true, // loop
