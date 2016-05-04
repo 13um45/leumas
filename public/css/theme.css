@@ -40,7 +40,7 @@ body #body-container {
 	background-color: #FFF;  /* for full width layout */
 	padding-top: 50px;
 }
-.container { 
+.container {
 	position: relative;
 }
 
@@ -49,7 +49,7 @@ body #body-container {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 }
-*:focus { 
+*:focus {
 	outline: none !important;
 	box-shadow: none !important;
 }
@@ -168,7 +168,7 @@ a, a:hover, a:focus {
 }
 
 #header {
-	/* height: 98px; */ /* For non-transparent navbar */ 
+	/* height: 98px; */ /* For non-transparent navbar */
 }
 
 /* ===== Begin text colors ===== */
@@ -587,7 +587,7 @@ body.boxed .body .navbar-inverse.navbar-transparent .navbar-nav > .active > a, b
 	padding-bottom: 30px;
 }
 .navbar-transparent .navbar-nav > li > a {
-	color: #FFF;
+	color: black;
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
@@ -659,7 +659,7 @@ body.boxed #video-intro-section {
 }
 
 #video-intro-section .cover {
-	background-color: rgba(0, 17, 31, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
 	z-index: 2;
 }
 #video-intro-section .container, #video-intro-section .container-fluid {
@@ -692,7 +692,7 @@ body.boxed #video-intro-section {
 }
 
 #error-section .cover {
-	background-color: rgba(0, 8, 15, 0.9);
+	background-color: rgba(255, 255, 255, 0.2);
 	z-index: 2;
 }
 #error-section .container, #error-section .container-fluid {
@@ -780,10 +780,10 @@ video.bgvid {
 /* ===== End page header ===== */
 
 /* ===== Begin heading ===== */
-.heading { 
+.heading {
 	margin-bottom: 30px;
 }
-.heading h3 { 
+.heading h3 {
 	margin: 0;
 }
 /* ===== End heading ===== */
@@ -1119,7 +1119,7 @@ video.bgvid {
 	-moz-border-radius: 50%;
 }
 .testimonial .cover {
-	background-color: rgba(0, 7, 11, 0.87);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 .testimonial-inner {
 	position: relative;
@@ -1363,7 +1363,7 @@ video.bgvid {
 	padding: 80px 0 50px 0;
 }
 .counter-up .cover {
-	background-color: rgba(0, 7, 11, 0.8);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 .counter-up .fact {
 }
@@ -1579,7 +1579,7 @@ transform: rotate(-45deg);
 	background-color: #171717;
 }
 #contact-section .cover {
-	background-color: rgba(5, 8, 11, 0.93);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
@@ -1834,7 +1834,7 @@ transform: rotate(-45deg);
 	background-color: #171717;
 }
 #services-section .cover {
-	background-color: rgba(0, 7, 11, 0.91);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 /* ===== End services ===== */
 
@@ -2195,22 +2195,22 @@ transform: rotate(-45deg);
 	-moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.switcher-box.default { 
+.switcher-box.default {
 	background-color: #E83F33;
 }
-.switcher-box.green { 
+.switcher-box.green {
 	background-color: #4B9D13;
 }
-.switcher-box.brown { 
+.switcher-box.brown {
 	background-color: #AB915A;
 }
-.switcher-box.blue { 
+.switcher-box.blue {
 	background-color: #3078B3;
 }
-.switcher-box.purple { 
+.switcher-box.purple {
 	background-color: #800080;
 }
-.switcher-box.yellow { 
+.switcher-box.yellow {
 	background-color: #FF9C00;
 }
 /* ===== End Stylesheet Switcher (for demo only). Remove if you do not need it. ===== */
